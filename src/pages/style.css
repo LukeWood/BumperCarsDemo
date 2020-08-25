@@ -1,7 +1,18 @@
 html,
 body,
 #___gatsby,
+#gatsby-focus-wrapper{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+}
+
 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -10,17 +21,4 @@ canvas {
 
 body {
   background: black;
-}
-
-h1 {
-  font-family: helvetica;
-  font-weight: 800;
-  font-size: 10em;
-  text-align: center;
-  color: hotpink;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
 }
